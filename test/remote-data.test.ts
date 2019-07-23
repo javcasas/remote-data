@@ -1,4 +1,4 @@
-import DummyClass from '../src/remote-data'
+import RemoteData from '../src/remote-data'
 
 /**
  * Dummy test
@@ -8,7 +8,7 @@ describe('Dummy test', () => {
     expect(true).toBeTruthy()
   })
 
-  it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
-  })
+  //it('DummyClass is instantiable', () => {
+  //  expect(new DummyClass()).toBeInstanceOf(DummyClass)
+  //})
 })
