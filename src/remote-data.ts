@@ -35,7 +35,7 @@ interface State<E, A> {
   data: RemoteDataADT<E, A>
 }
 
-class RemoteData<E, A> extends React.Component<Props<E, A>, State<E, A>> {
+class RemoteData<E extends any, A> extends React.Component<Props<E, A>, State<E, A>> {
   constructor(props: Props<E, A>) {
     super(props)
     this.state = {
