@@ -1,6 +1,6 @@
 {
   "name": "remote-data",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "dist/remote-data.umd.js",
@@ -12,7 +12,7 @@
   "author": "Javier Casas <javcasas@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/javcasas/remote-data.git"
   },
   "license": "MIT",
   "engines": {
