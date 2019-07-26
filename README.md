@@ -1,5 +1,7 @@
 # remote-data in TypeScript
 
+See [Constructing a Generic Data Loader Component with good typechecking in Typescript](https://www.javiercasas.com/articles/constructing-generic-loader-component/)
+
 
 
 ### Usage
